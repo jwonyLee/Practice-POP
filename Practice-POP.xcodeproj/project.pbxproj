@@ -11,6 +11,7 @@
 		87F0F45427BE7FF5009CD989 /* Chargeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0F45327BE7FF5009CD989 /* Chargeable.swift */; };
 		87F0F45727BE82A9009CD989 /* AppleWatchCharger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0F45627BE82A9009CD989 /* AppleWatchCharger.swift */; };
 		87F0F45927BE8408009CD989 /* iPhoneFastCharger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0F45827BE8408009CD989 /* iPhoneFastCharger.swift */; };
+		87F0F45B27BE8452009CD989 /* iPadCharger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0F45A27BE8452009CD989 /* iPadCharger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		87F0F45327BE7FF5009CD989 /* Chargeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chargeable.swift; sourceTree = "<group>"; };
 		87F0F45627BE82A9009CD989 /* AppleWatchCharger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchCharger.swift; sourceTree = "<group>"; };
 		87F0F45827BE8408009CD989 /* iPhoneFastCharger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneFastCharger.swift; sourceTree = "<group>"; };
+		87F0F45A27BE8452009CD989 /* iPadCharger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadCharger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			children = (
 				87F0F45627BE82A9009CD989 /* AppleWatchCharger.swift */,
 				87F0F45827BE8408009CD989 /* iPhoneFastCharger.swift */,
+				87F0F45A27BE8452009CD989 /* iPadCharger.swift */,
 			);
 			path = Charger;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				87F0F45727BE82A9009CD989 /* AppleWatchCharger.swift in Sources */,
 				87F0F44D27BE7F0B009CD989 /* main.swift in Sources */,
 				87F0F45927BE8408009CD989 /* iPhoneFastCharger.swift in Sources */,
+				87F0F45B27BE8452009CD989 /* iPadCharger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
