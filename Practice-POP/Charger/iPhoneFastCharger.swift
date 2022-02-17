@@ -9,11 +9,4 @@ import Foundation
 
 struct iPhoneFastCharger: Chargeable {
     var chargemAhPerHour: Double = 25.0
-    
-    func convert(chargeablemAhPerHour: Double) -> Double {
-        if chargeablemAhPerHour < chargemAhPerHour {
-            return chargeablemAhPerHour
-        }
-        return chargemAhPerHour
-    }
 }

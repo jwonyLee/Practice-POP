@@ -9,11 +9,4 @@ import Foundation
 
 struct MacBookCharger: Chargeable {
     var chargemAhPerHour: Double = 50.0
-    
-    func convert(chargeablemAhPerHour: Double) -> Double {
-        if chargeablemAhPerHour < chargemAhPerHour {
-            return chargeablemAhPerHour
-        }
-        return chargemAhPerHour
-    }
 }
