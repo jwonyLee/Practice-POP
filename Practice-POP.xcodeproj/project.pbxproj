@@ -12,6 +12,7 @@
 		87F0F45727BE82A9009CD989 /* AppleWatchCharger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0F45627BE82A9009CD989 /* AppleWatchCharger.swift */; };
 		87F0F45927BE8408009CD989 /* iPhoneFastCharger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0F45827BE8408009CD989 /* iPhoneFastCharger.swift */; };
 		87F0F45B27BE8452009CD989 /* iPadCharger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0F45A27BE8452009CD989 /* iPadCharger.swift */; };
+		87F0F45D27BE847A009CD989 /* MacBookCharger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0F45C27BE847A009CD989 /* MacBookCharger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		87F0F45627BE82A9009CD989 /* AppleWatchCharger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchCharger.swift; sourceTree = "<group>"; };
 		87F0F45827BE8408009CD989 /* iPhoneFastCharger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneFastCharger.swift; sourceTree = "<group>"; };
 		87F0F45A27BE8452009CD989 /* iPadCharger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadCharger.swift; sourceTree = "<group>"; };
+		87F0F45C27BE847A009CD989 /* MacBookCharger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacBookCharger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				87F0F45627BE82A9009CD989 /* AppleWatchCharger.swift */,
 				87F0F45827BE8408009CD989 /* iPhoneFastCharger.swift */,
 				87F0F45A27BE8452009CD989 /* iPadCharger.swift */,
+				87F0F45C27BE847A009CD989 /* MacBookCharger.swift */,
 			);
 			path = Charger;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				87F0F44D27BE7F0B009CD989 /* main.swift in Sources */,
 				87F0F45927BE8408009CD989 /* iPhoneFastCharger.swift in Sources */,
 				87F0F45B27BE8452009CD989 /* iPadCharger.swift in Sources */,
+				87F0F45D27BE847A009CD989 /* MacBookCharger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
