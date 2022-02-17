@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		87F0F44D27BE7F0B009CD989 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0F44C27BE7F0B009CD989 /* main.swift */; };
 		87F0F45427BE7FF5009CD989 /* Chargeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0F45327BE7FF5009CD989 /* Chargeable.swift */; };
+		87F0F45727BE82A9009CD989 /* AppleWatchCharger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0F45627BE82A9009CD989 /* AppleWatchCharger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		87F0F44927BE7F0B009CD989 /* Practice-POP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Practice-POP"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87F0F44C27BE7F0B009CD989 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		87F0F45327BE7FF5009CD989 /* Chargeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chargeable.swift; sourceTree = "<group>"; };
+		87F0F45627BE82A9009CD989 /* AppleWatchCharger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchCharger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +61,19 @@
 		87F0F44B27BE7F0B009CD989 /* Practice-POP */ = {
 			isa = PBXGroup;
 			children = (
+				87F0F45527BE829B009CD989 /* Charger */,
 				87F0F44C27BE7F0B009CD989 /* main.swift */,
 				87F0F45327BE7FF5009CD989 /* Chargeable.swift */,
 			);
 			path = "Practice-POP";
+			sourceTree = "<group>";
+		};
+		87F0F45527BE829B009CD989 /* Charger */ = {
+			isa = PBXGroup;
+			children = (
+				87F0F45627BE82A9009CD989 /* AppleWatchCharger.swift */,
+			);
+			path = Charger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87F0F45427BE7FF5009CD989 /* Chargeable.swift in Sources */,
+				87F0F45727BE82A9009CD989 /* AppleWatchCharger.swift in Sources */,
 				87F0F44D27BE7F0B009CD989 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
